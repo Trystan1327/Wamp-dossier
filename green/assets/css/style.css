@@ -1,0 +1,180 @@
+
+.bodyKoko, .footKoko {
+    margin-bottom: 1em;
+    background-color: #e7e7e7;
+    box-shadow: -5px 0px 14px 0px rgba(20,20,20,0);
+}
+
+body {
+    background: url("../images/bgnoir.png") no-repeat center center fixed;
+    background-color: #4d4d4d;
+    background-size: cover;
+    max-width: 900px;
+    margin: auto;
+}
+
+#logo {
+    position: relative;
+    height: 200px;
+    margin-left: 0px;
+}
+
+#bandes {
+    position: absolute;
+    right: 0;
+    width: 98%;
+    height: 150px;
+    margin-top: 0%;
+    
+} 
+
+#panier{
+    position: absolute;
+    right: 20%;
+    margin-top: 6px;
+}
+
+#pics{
+    position: absolute;
+    right: 4%;
+    margin-top: 15px;
+}
+
+
+
+.nav {
+position :absolute;
+margin-left: 30%;
+display: inline-block;
+margin-top: 15px;
+
+}
+.nav a {
+text-decoration: none;
+
+}
+
+.nav a ,a :hover {
+margin-left: 20px;
+
+}
+
+.nav2{
+position :absolute;
+margin-left: 2%;
+display: inline-block;
+margin-top: 60px;
+}
+.nav2 a {
+text-decoration: none;
+color: white;
+font-size: 18pt;
+
+}
+
+.nav2 a ,a :hover {
+margin-left: 100pt;
+
+}
+
+.nav3{
+position :absolute;
+margin-left: 1%;
+display: inline-block;
+margin-top: 110px;
+}
+.nav3 a {
+text-decoration: none;
+color: white;
+font-size: 22pt;
+
+}
+
+.nav3 a ,a :hover {
+margin-left: 38px;
+
+}
+
+#foot{
+width: 100%;
+}
+
+@media screen and (max-width:768px)
+{
+    #bandes{
+        max-width: 768px;
+        height: 68px;
+    }
+    #logo{
+        max-width: 400px;
+        height:80px ;
+    }
+
+
+    #panier{
+        width: 15px;
+        height: 15px;
+        margin-top: 5px;
+        margin-right: 15px ;
+    }
+    #pics{
+        width: 40px;
+        height: auto;
+        margin-top: 5px;
+        margin-right: 5px ;
+    }
+
+
+    .nav{
+        margin-left: 10%;
+        margin-top: 5px;
+        
+    }
+    .nav a {
+        text-decoration: none;
+        
+        }
+        .nav a ,a :hover {
+            margin-left: 5pt;
+            
+            }
+            .nav2{
+                
+                margin-left: 50px;
+                display: inline-block;
+                margin-top: 25px;
+                }
+                .nav2 a {
+                text-decoration: none;
+                color: white;
+                font-size: 10pt;
+                
+                }
+                
+                .nav2 a ,a :hover {
+                margin-left: 12pt;
+                
+                }
+                .nav3{
+                    
+                    margin-left:0;
+                    display: inline-block;
+                    margin-top: 45px;
+                    }
+                    .nav3 a {
+                    text-decoration: none;
+                    color: white;
+                    font-size: 12px;
+                    
+                    }
+                    
+                    .nav3 a ,a :hover {
+                    margin-left:0;
+                    
+                    }
+
+}
+
+
+
+
